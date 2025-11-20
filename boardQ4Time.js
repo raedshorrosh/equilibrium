@@ -114,10 +114,10 @@ p4.push(board.create('point',[0,x4[0]],{infoboxDigits:3,strokeColor:crvcol[3],fi
 
 
 board.on('move',function(){ 
-			  p1[0].moveTo([4,p1[0].Y()]);
-			  p2[0].moveTo([4,p2[0].Y()]);
-			  p3[0].moveTo([4,p3[0].Y()]);
-        p4[0].moveTo([4,p4[0].Y()]);
+			  p1[0].moveTo([4+timeShift,p1[0].Y()]);
+			  p2[0].moveTo([4+timeShift,p2[0].Y()]);
+			  p3[0].moveTo([4+timeShift,p3[0].Y()]);
+        p4[0].moveTo([4+timeShift,p4[0].Y()]);
 													});
 
 
